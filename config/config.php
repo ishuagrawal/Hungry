@@ -13,4 +13,9 @@ define('DB_USER', $username);
 define('DB_PASS', $password);
 define('DB_NAME', $db);
 
+$api_key = getenv("EDAMAM_API_KEY");
+$api_id = getenv("EDAMAM_API_ID");
+define('API_KEY', $api_key);
+define('API_ID', $api_id);
+
 ?>
