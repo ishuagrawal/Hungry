@@ -123,8 +123,7 @@ document.querySelector("#search-form").onsubmit = function(event) {
     if (searchInput.length != 0) {
         document.querySelector('#search-id').classList.remove('is-invalid');
         searchInput = encodeURI(searchInput);
-        let endpoint2 = "https://api.edamam.com/search?q=" + searchInput + "&app_id=" + API_ID + "&app_key=" + API_KEY + "&from=0&to=12";
-        // let endpoint2 = "https://api.edamam.com/search?q=" + searchInput + "&app_id=8ea4ceaf&app_key=a390e6d461f7fedabb70af2709f6add0&from=0&to=12";
+        let endpoint2 = "https://api.edamam.com/search?q=" + searchInput + "&app_id=8ea4ceaf&app_key=a390e6d461f7fedabb70af2709f6add0&from=0&to=12";
         ajax(endpoint2, displayResults);
     } else {
         document.querySelector('#search-id').classList.add('is-invalid');
