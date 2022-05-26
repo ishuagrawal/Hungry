@@ -1,0 +1,141 @@
+html, body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #0081A7;
+}
+
+header {
+    background-image: url('images/ingredients.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.name {
+    padding: 5%;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 10px black;
+}
+
+.card-group {
+    margin: 0 auto;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+.buttons {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.text {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#title {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #345995;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.card h5 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.card .watchlist {
+    background-color: #FFC759;
+    margin: 0;
+    margin-right: 1%;
+}
+
+.card #source {
+    background-color: #345995;
+    color: white;
+    margin: 0;
+    margin-left: 1%;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    padding-right: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    text-shadow: 1px 1px 10px black;
+    color: #FFC759;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* For tablet devices */
+@media (min-width: 768px) {
+    .card-group {
+        width: 80%;
+    }
+
+    .card h5 {
+        font-size: 25px;
+    }
+
+    .icon {
+        font-size: 50px;
+    }
+}
+
+/* For desktop devices */
+@media (min-width: 992px) {
+    .card-group {
+        width: 80%;
+    }
+
+    #title {
+        font-size: 35px;
+    }
+
+    .card h5 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .icon {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .card-group {
+        width: 80%;
+    }
+
+    .card h5 {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .icon {
+        font-size: 70px;
+    }
+}

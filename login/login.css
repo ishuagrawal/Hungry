@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #0081A7;
+}
+
+.navbar {
+    background-color: #D5573B;
+}
+
+#name {
+    color: #FFC759;
+    margin-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-image: url('images/computer.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.name {
+    padding: 5%;
+    color: white;
+    font-size: 70px;
+    text-shadow: 1px 1px 10px black;
+}
+
+#data {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+}
+
+#user, #pass, #email, #oldPass, #newPass, #buttons {
+    margin-bottom: 3%;
+    display: inline;
+}
+
+#username-id {
+    margin-bottom: 7%;
+}
+
+#email-id {
+    margin-bottom: 7%;
+}
+
+#old-password-id {
+    margin-bottom: 7%;
+}
+
+
+#data .btn-color {
+    background-color: #D5573B;
+    margin-right: 5%;
+    color: white;
+}
+
+.modal-footer .btn-color {
+    background-color: #D5573B;
+    color: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    margin-bottom: 5%;
+}
+
+.link {
+    margin-top: 3%;
+}
