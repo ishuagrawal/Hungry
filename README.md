@@ -1,6 +1,5 @@
 # Hungry!
 **Hungry!** is a recipe web-app, where users can search for recipes and save them to a watchlist.  
-**Link:** https://ishuagra-hungry.herokuapp.com/
 
 <hr />
 
